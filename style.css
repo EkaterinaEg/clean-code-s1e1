@@ -4,37 +4,38 @@ body {
   color: #333;
   font-family: "Lato", sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.header__image {
   width: 100%;
 }
-.aaa .more_inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .header {
     text-align: center;
   }
 
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.items__input,
+.items__name {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.container-inner {
   display: flex;
 }
 ul {
@@ -149,4 +150,7 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
   display: none;
+}
+.main__title {
+    display: none;
 }
