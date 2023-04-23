@@ -30,6 +30,7 @@
   margin: 0 auto 0;
 }
 .items__input,
+.items__text,
 .items__name {
   width: 56%;
   display: inline-block;
@@ -46,7 +47,9 @@
 .items__title {
   list-style: none;
 }
+.items__input,
 .items__check,
+.items__text,
 .items__button {
   outline: none;
 }
@@ -121,7 +124,8 @@
   font-size: 18px;
   width: 226px;
 }
-.items__tasks-item > .items__text {
+.items__tasks-item > .items__text,
+.items__input {
   width: 226px;
 }
 .items__button-img {
