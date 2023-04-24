@@ -111,7 +111,10 @@
   justify-content: space-between;
   align-items: center;
 }
-.items__tasks-item > * {
+.items__tasks-item > .items__check,
+.items__tasks-item > .items__name,
+.items__tasks-item > .items__text,
+.items__tasks-item > .items__button {
   vertical-align: middle;
 }
 
